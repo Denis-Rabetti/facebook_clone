@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+body {
+    background: #efefef;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1876f2;
+    padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 160px;
+    margin-left: 45px;
+}
+
+.nav-left ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-left ul li img {
+    width: 28px;
+    margin: 0 15px;
+}
+
+.nav-left,.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-user-icon img {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.search-box {
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.search-box img {
+    width: 18px;
+}
+
+.search-box input {
+    background: transparent;
+    width: 80%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+}
+.online {
+    position: relative;
+
+}
+
+.online::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+}
+
+.esquerda {
+    flex-basis: 25%;
+    position: sticky;
+    top: 70%;
+    align-self: flex-start;
+    height: 100vh;
+}
+
+.direita {
+    flex-basis: 25%;
+    position: sticky;
+    top: 70%;
+    align-self: flex-start;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #626262;
+}
+
+.meio {
+    flex-basis: 45%;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+}
+
+.links a img {
+    width: 20px;
+    margin-left: 20px;
+}
+
+.links a:last-child {
+    color: #1876f2;
+}
+
+.links {
+    border-bottom: 1px solid #ccc;
+}
+
+.shortcut a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+}
+
+.shortcut a img {
+    width: 40px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
+.shortcut p {
+    margin: 25px 0;
+    color: #626262;
+    font-weight: 500;
+}
+
+.eventos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.eventos h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.eventos a {
+    text-decoration: none;
+    color: #187;
+    font-size: 12px;
+}
+
+.calendario {
+    display: flex;
+    line-height: 14px;
+    margin-bottom: 20px;
+}
+
+.calendario-esquerda {
+    border-radius: 10px;
+    width: 65px;
+    height: 65px;
+    margin-right: 15px;
+    padding-top: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.calendario-direita p {
+    font-size: 12px;
+}
+
+.calendario-direita a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.calendario-esquerda span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1876f2;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 0;
+    text-align: center;
+}
+
+.patrocinados {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.patrocinados a {
+    text-decoration: none;
+    color: #187;
+    font-size: 12px;
+}
+
+.advertisement {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.conversas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.conversas a {
+    text-decoration: none;
+    color: #187;
+    font-size: 12px;
+}
+
+.online-left {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.online-left .online img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.onilne-left .online {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.online-left .online::after {
+    top: unset;
+    bottom: 4px;
+}
